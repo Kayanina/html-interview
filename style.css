@@ -1,0 +1,167 @@
+header {
+    color: aqua;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Altivo Regular ;
+}
+
+#Background {
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Background.gif);
+    background-position: center;
+    background-size: 110%;
+}
+
+#TW { background-color: lightpink;
+    position: fixed;
+    top: 800px;
+    left: 600px;}
+
+#AT { background-color: lightpink;
+
+    position:fixed;
+    top: 800px;
+    right: 600px}
+
+#Abelbackground {
+    z-index: -1;
+    position:fixed;
+    top: 0px;
+    width: 120vw;
+    height: 100vh;
+    background-image: url(Background3.jpg);
+    background-position: center;
+    background-size: cover
+    
+}
+
+#Sound {
+    background-color: aliceblue;
+    position:absolute;
+    margin-top:300px; 
+    margin-left: 725px;
+    margin-right: 700px;
+}
+
+Header2 {
+    color: #e7e460;
+    font-family: "sofachrome";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    margin: 200px;
+}
+
+#Interviewer {
+    font-family:"newnord";
+    font-weight: 400;
+    font-style: normal; 
+    color:#b6c81e;
+    position: relative;
+    left:50px;
+    text-align: left;
+    
+}
+    
+#Abel {
+    
+    font-family:"newnord";
+    font-weight: 400;
+    font-style: normal; 
+    color:#b6c81e;
+    position: relative;
+    text-align: right;
+    right: 50px;
+    
+    
+;
+    
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 50%
+}
+    
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#Theweeknd {
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(New%20Background.jpg);
+    background-position: center;
+    background-size: 110%;
+    
+    
+
+}
+    
+h1 {font-family: "sofachrome";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: midnightblue}
